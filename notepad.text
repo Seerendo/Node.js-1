@@ -1,3 +1,20 @@
 wbjORzIQHsWLjlCS
 
 mongodb+srv://seerendo:wbjORzIQHsWLjlCS@cluster0.9ozypu9.mongodb.net/?retryWrites=true&w=majority
+
+
+{
+  "name": "Leifer",
+  "album": "Album",
+  "cover": "http://tttt.com",
+  "artist": {
+    "name": "Leifer",
+    "nickname": "leifermendez",
+    "nationality": "VE"
+  },
+  "duration": {
+    "start": 1,
+    "end": 0
+  },
+  "mediaId": "621e7499a1f699063f5114bc"
+}
