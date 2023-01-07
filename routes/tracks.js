@@ -5,7 +5,7 @@ const router = express.Router();
 const { validatorCreateItem } = require('../validators/tracks');
 //TODO Tracks routes GET, POST, DELETE, PUT
 
-router.get('/', getItems);
+router.get('/', customHeader, getItems);
 
 router.post('/', validatorCreateItem, customHeader, createItem);
 
